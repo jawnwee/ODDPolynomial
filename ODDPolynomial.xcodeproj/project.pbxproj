@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB5BFB80196397E1008563CB /* ODDPolynomialFit.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFB7F196397E1008563CB /* ODDPolynomialFit.c */; };
+		EB5BFBB6196397F8008563CB /* polyfit.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFB9F196397F8008563CB /* polyfit.c */; };
+		EB5BFBB7196397F8008563CB /* polyPlot.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBA1196397F8008563CB /* polyPlot.c */; };
+		EB5BFBB8196397F8008563CB /* polyPlot_emxAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBA3196397F8008563CB /* polyPlot_emxAPI.c */; };
+		EB5BFBB9196397F8008563CB /* polyPlot_emxutil.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBA5196397F8008563CB /* polyPlot_emxutil.c */; };
+		EB5BFBBA196397F8008563CB /* polyPlot_initialize.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBA7196397F8008563CB /* polyPlot_initialize.c */; };
+		EB5BFBBB196397F8008563CB /* polyPlot_terminate.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBAB196397F8008563CB /* polyPlot_terminate.c */; };
+		EB5BFBBC196397F8008563CB /* rt_nonfinite.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBAE196397F8008563CB /* rt_nonfinite.c */; };
+		EB5BFBBD196397F8008563CB /* rtGetInf.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBB0196397F8008563CB /* rtGetInf.c */; };
+		EB5BFBBE196397F8008563CB /* rtGetNaN.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBB2196397F8008563CB /* rtGetNaN.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB5BFB73196397A0008563CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB5BFB75196397A0008563CB /* ODDPolynomial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ODDPolynomial; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5BFB7F196397E1008563CB /* ODDPolynomialFit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ODDPolynomialFit.c; sourceTree = "<group>"; };
+		EB5BFB82196397F8008563CB /* buildInfo.mat */ = {isa = PBXFileReference; lastKnownFileType = file; path = buildInfo.mat; sourceTree = "<group>"; };
+		EB5BFB84196397F8008563CB /* coder_report.mat */ = {isa = PBXFileReference; lastKnownFileType = file; path = coder_report.mat; sourceTree = "<group>"; };
+		EB5BFB85196397F8008563CB /* contents_file.tmp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contents_file.tmp; sourceTree = "<group>"; };
+		EB5BFB86196397F8008563CB /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		EB5BFB87196397F8008563CB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EB5BFB88196397F8008563CB /* polyfit_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyfit_c.html; sourceTree = "<group>"; };
+		EB5BFB89196397F8008563CB /* polyfit_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyfit_h.html; sourceTree = "<group>"; };
+		EB5BFB8A196397F8008563CB /* polyPlot1_mcode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot1_mcode.html; sourceTree = "<group>"; };
+		EB5BFB8B196397F8008563CB /* polyPlot1_watch.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot1_watch.html; sourceTree = "<group>"; };
+		EB5BFB8C196397F8008563CB /* polyPlot_buildlog1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_buildlog1.html; sourceTree = "<group>"; };
+		EB5BFB8D196397F8008563CB /* polyPlot_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_c.html; sourceTree = "<group>"; };
+		EB5BFB8E196397F8008563CB /* polyPlot_emxAPI_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_emxAPI_c.html; sourceTree = "<group>"; };
+		EB5BFB8F196397F8008563CB /* polyPlot_emxAPI_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_emxAPI_h.html; sourceTree = "<group>"; };
+		EB5BFB90196397F8008563CB /* polyPlot_emxutil_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_emxutil_c.html; sourceTree = "<group>"; };
+		EB5BFB91196397F8008563CB /* polyPlot_emxutil_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_emxutil_h.html; sourceTree = "<group>"; };
+		EB5BFB92196397F8008563CB /* polyPlot_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_h.html; sourceTree = "<group>"; };
+		EB5BFB93196397F8008563CB /* polyPlot_initialize_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_initialize_c.html; sourceTree = "<group>"; };
+		EB5BFB94196397F8008563CB /* polyPlot_initialize_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_initialize_h.html; sourceTree = "<group>"; };
+		EB5BFB95196397F8008563CB /* polyPlot_terminate_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_terminate_c.html; sourceTree = "<group>"; };
+		EB5BFB96196397F8008563CB /* polyPlot_terminate_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_terminate_h.html; sourceTree = "<group>"; };
+		EB5BFB97196397F8008563CB /* polyPlot_types_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = polyPlot_types_h.html; sourceTree = "<group>"; };
+		EB5BFB98196397F8008563CB /* rt_nonfinite_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rt_nonfinite_c.html; sourceTree = "<group>"; };
+		EB5BFB99196397F8008563CB /* rt_nonfinite_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rt_nonfinite_h.html; sourceTree = "<group>"; };
+		EB5BFB9A196397F8008563CB /* rtGetInf_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rtGetInf_c.html; sourceTree = "<group>"; };
+		EB5BFB9B196397F8008563CB /* rtGetInf_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rtGetInf_h.html; sourceTree = "<group>"; };
+		EB5BFB9C196397F8008563CB /* rtGetNaN_c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rtGetNaN_c.html; sourceTree = "<group>"; };
+		EB5BFB9D196397F8008563CB /* rtGetNaN_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rtGetNaN_h.html; sourceTree = "<group>"; };
+		EB5BFB9E196397F8008563CB /* rtwtypes_h.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rtwtypes_h.html; sourceTree = "<group>"; };
+		EB5BFB9F196397F8008563CB /* polyfit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polyfit.c; sourceTree = "<group>"; };
+		EB5BFBA0196397F8008563CB /* polyfit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyfit.h; sourceTree = "<group>"; };
+		EB5BFBA1196397F8008563CB /* polyPlot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polyPlot.c; sourceTree = "<group>"; };
+		EB5BFBA2196397F8008563CB /* polyPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyPlot.h; sourceTree = "<group>"; };
+		EB5BFBA3196397F8008563CB /* polyPlot_emxAPI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polyPlot_emxAPI.c; sourceTree = "<group>"; };
+		EB5BFBA4196397F8008563CB /* polyPlot_emxAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyPlot_emxAPI.h; sourceTree = "<group>"; };
+		EB5BFBA5196397F8008563CB /* polyPlot_emxutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polyPlot_emxutil.c; sourceTree = "<group>"; };
+		EB5BFBA6196397F8008563CB /* polyPlot_emxutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyPlot_emxutil.h; sourceTree = "<group>"; };
+		EB5BFBA7196397F8008563CB /* polyPlot_initialize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polyPlot_initialize.c; sourceTree = "<group>"; };
+		EB5BFBA8196397F8008563CB /* polyPlot_initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyPlot_initialize.h; sourceTree = "<group>"; };
+		EB5BFBA9196397F8008563CB /* polyPlot_ref.rsp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polyPlot_ref.rsp; sourceTree = "<group>"; };
+		EB5BFBAA196397F8008563CB /* polyPlot_rtw.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polyPlot_rtw.mk; sourceTree = "<group>"; };
+		EB5BFBAB196397F8008563CB /* polyPlot_terminate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polyPlot_terminate.c; sourceTree = "<group>"; };
+		EB5BFBAC196397F8008563CB /* polyPlot_terminate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyPlot_terminate.h; sourceTree = "<group>"; };
+		EB5BFBAD196397F8008563CB /* polyPlot_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyPlot_types.h; sourceTree = "<group>"; };
+		EB5BFBAE196397F8008563CB /* rt_nonfinite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rt_nonfinite.c; sourceTree = "<group>"; };
+		EB5BFBAF196397F8008563CB /* rt_nonfinite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rt_nonfinite.h; sourceTree = "<group>"; };
+		EB5BFBB0196397F8008563CB /* rtGetInf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtGetInf.c; sourceTree = "<group>"; };
+		EB5BFBB1196397F8008563CB /* rtGetInf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtGetInf.h; sourceTree = "<group>"; };
+		EB5BFBB2196397F8008563CB /* rtGetNaN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtGetNaN.c; sourceTree = "<group>"; };
+		EB5BFBB3196397F8008563CB /* rtGetNaN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtGetNaN.h; sourceTree = "<group>"; };
+		EB5BFBB4196397F8008563CB /* rtw_proj.tmw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rtw_proj.tmw; sourceTree = "<group>"; };
+		EB5BFBB5196397F8008563CB /* rtwtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtwtypes.h; sourceTree = "<group>"; };
+		EB5BFBBF196398CB008563CB /* ODDPolynomialFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODDPolynomialFit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB5BFB72196397A0008563CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5BFB6C196397A0008563CB = {
+			isa = PBXGroup;
+			children = (
+				EB5BFB77196397A0008563CB /* ODDPolynomial */,
+				EB5BFB76196397A0008563CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB5BFB76196397A0008563CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BFB75196397A0008563CB /* ODDPolynomial */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5BFB77196397A0008563CB /* ODDPolynomial */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BFB7F196397E1008563CB /* ODDPolynomialFit.c */,
+				EB5BFBBF196398CB008563CB /* ODDPolynomialFit.h */,
+				EB5BFB81196397F8008563CB /* polyPlot */,
+			);
+			path = ODDPolynomial;
+			sourceTree = "<group>";
+		};
+		EB5BFB81196397F8008563CB /* polyPlot */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BFB82196397F8008563CB /* buildInfo.mat */,
+				EB5BFB83196397F8008563CB /* html */,
+				EB5BFB9F196397F8008563CB /* polyfit.c */,
+				EB5BFBA0196397F8008563CB /* polyfit.h */,
+				EB5BFBA1196397F8008563CB /* polyPlot.c */,
+				EB5BFBA2196397F8008563CB /* polyPlot.h */,
+				EB5BFBA3196397F8008563CB /* polyPlot_emxAPI.c */,
+				EB5BFBA4196397F8008563CB /* polyPlot_emxAPI.h */,
+				EB5BFBA5196397F8008563CB /* polyPlot_emxutil.c */,
+				EB5BFBA6196397F8008563CB /* polyPlot_emxutil.h */,
+				EB5BFBA7196397F8008563CB /* polyPlot_initialize.c */,
+				EB5BFBA8196397F8008563CB /* polyPlot_initialize.h */,
+				EB5BFBA9196397F8008563CB /* polyPlot_ref.rsp */,
+				EB5BFBAA196397F8008563CB /* polyPlot_rtw.mk */,
+				EB5BFBAB196397F8008563CB /* polyPlot_terminate.c */,
+				EB5BFBAC196397F8008563CB /* polyPlot_terminate.h */,
+				EB5BFBAD196397F8008563CB /* polyPlot_types.h */,
+				EB5BFBAE196397F8008563CB /* rt_nonfinite.c */,
+				EB5BFBAF196397F8008563CB /* rt_nonfinite.h */,
+				EB5BFBB0196397F8008563CB /* rtGetInf.c */,
+				EB5BFBB1196397F8008563CB /* rtGetInf.h */,
+				EB5BFBB2196397F8008563CB /* rtGetNaN.c */,
+				EB5BFBB3196397F8008563CB /* rtGetNaN.h */,
+				EB5BFBB4196397F8008563CB /* rtw_proj.tmw */,
+				EB5BFBB5196397F8008563CB /* rtwtypes.h */,
+			);
+			name = polyPlot;
+			path = ../polyPlot;
+			sourceTree = "<group>";
+		};
+		EB5BFB83196397F8008563CB /* html */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BFB84196397F8008563CB /* coder_report.mat */,
+				EB5BFB85196397F8008563CB /* contents_file.tmp */,
+				EB5BFB86196397F8008563CB /* index.css */,
+				EB5BFB87196397F8008563CB /* index.html */,
+				EB5BFB88196397F8008563CB /* polyfit_c.html */,
+				EB5BFB89196397F8008563CB /* polyfit_h.html */,
+				EB5BFB8A196397F8008563CB /* polyPlot1_mcode.html */,
+				EB5BFB8B196397F8008563CB /* polyPlot1_watch.html */,
+				EB5BFB8C196397F8008563CB /* polyPlot_buildlog1.html */,
+				EB5BFB8D196397F8008563CB /* polyPlot_c.html */,
+				EB5BFB8E196397F8008563CB /* polyPlot_emxAPI_c.html */,
+				EB5BFB8F196397F8008563CB /* polyPlot_emxAPI_h.html */,
+				EB5BFB90196397F8008563CB /* polyPlot_emxutil_c.html */,
+				EB5BFB91196397F8008563CB /* polyPlot_emxutil_h.html */,
+				EB5BFB92196397F8008563CB /* polyPlot_h.html */,
+				EB5BFB93196397F8008563CB /* polyPlot_initialize_c.html */,
+				EB5BFB94196397F8008563CB /* polyPlot_initialize_h.html */,
+				EB5BFB95196397F8008563CB /* polyPlot_terminate_c.html */,
+				EB5BFB96196397F8008563CB /* polyPlot_terminate_h.html */,
+				EB5BFB97196397F8008563CB /* polyPlot_types_h.html */,
+				EB5BFB98196397F8008563CB /* rt_nonfinite_c.html */,
+				EB5BFB99196397F8008563CB /* rt_nonfinite_h.html */,
+				EB5BFB9A196397F8008563CB /* rtGetInf_c.html */,
+				EB5BFB9B196397F8008563CB /* rtGetInf_h.html */,
+				EB5BFB9C196397F8008563CB /* rtGetNaN_c.html */,
+				EB5BFB9D196397F8008563CB /* rtGetNaN_h.html */,
+				EB5BFB9E196397F8008563CB /* rtwtypes_h.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB5BFB74196397A0008563CB /* ODDPolynomial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5BFB7C196397A0008563CB /* Build configuration list for PBXNativeTarget "ODDPolynomial" */;
+			buildPhases = (
+				EB5BFB71196397A0008563CB /* Sources */,
+				EB5BFB72196397A0008563CB /* Frameworks */,
+				EB5BFB73196397A0008563CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODDPolynomial;
+			productName = ODDPolynomial;
+			productReference = EB5BFB75196397A0008563CB /* ODDPolynomial */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5BFB6D196397A0008563CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = OddLook;
+				TargetAttributes = {
+					EB5BFB74196397A0008563CB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = EB5BFB70196397A0008563CB /* Build configuration list for PBXProject "ODDPolynomial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB5BFB6C196397A0008563CB;
+			productRefGroup = EB5BFB76196397A0008563CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB5BFB74196397A0008563CB /* ODDPolynomial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB5BFB71196397A0008563CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5BFBBB196397F8008563CB /* polyPlot_terminate.c in Sources */,
+				EB5BFBB9196397F8008563CB /* polyPlot_emxutil.c in Sources */,
+				EB5BFB80196397E1008563CB /* ODDPolynomialFit.c in Sources */,
+				EB5BFBB7196397F8008563CB /* polyPlot.c in Sources */,
+				EB5BFBB6196397F8008563CB /* polyfit.c in Sources */,
+				EB5BFBBD196397F8008563CB /* rtGetInf.c in Sources */,
+				EB5BFBBE196397F8008563CB /* rtGetNaN.c in Sources */,
+				EB5BFBB8196397F8008563CB /* polyPlot_emxAPI.c in Sources */,
+				EB5BFBBA196397F8008563CB /* polyPlot_initialize.c in Sources */,
+				EB5BFBBC196397F8008563CB /* rt_nonfinite.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB5BFB7A196397A0008563CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB5BFB7B196397A0008563CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB5BFB7D196397A0008563CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB5BFB7E196397A0008563CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5BFB70196397A0008563CB /* Build configuration list for PBXProject "ODDPolynomial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5BFB7A196397A0008563CB /* Debug */,
+				EB5BFB7B196397A0008563CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5BFB7C196397A0008563CB /* Build configuration list for PBXNativeTarget "ODDPolynomial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5BFB7D196397A0008563CB /* Debug */,
+				EB5BFB7E196397A0008563CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB5BFB6D196397A0008563CB /* Project object */;
+}
