@@ -16,10 +16,10 @@ double *polynomailFitCoordinates(int entries, double y[], int degree) {
         x[i] = i + 1;
     }
     double coeff[degree];
-    emxArray_real_T *finalx = emxCreateWrapper_real_T(x, 1, 365);
-    emxArray_real_T *finaly = emxCreateWrapper_real_T(y, 1, 365);
+    emxArray_real_T *finalx = emxCreateWrapper_real_T(x, 1, entries);
+    emxArray_real_T *finaly = emxCreateWrapper_real_T(y, 1, entries);
 
-    emxArray_real_T *finalCoef = emxCreateWrapper_real_T(coeff, 1, 15);
+    emxArray_real_T *finalCoef = emxCreateWrapper_real_T(coeff, 1, degree);
     polyPlot(finalx, finaly, degree, finalCoef);
 
     double coefResult[degree];
