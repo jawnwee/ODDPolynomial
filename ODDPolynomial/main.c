@@ -384,8 +384,9 @@ int main(int argc, const char * argv[]) {
         100,
         100};
     double *result = polynomailFitCoordinates(365, y, 10);
-    for (int i = 0 ; i <= 365; i++) {
-        printf("%f\n", result[i]);
+    double *resultExtraData = polynomialFitCoordinatesExtraData(365, y, 10, 5);
+    for (int i = 0 ; i < 365 * 5; i++) {
+        printf("%f\n", resultExtraData[i]);
     }
 
     return 0;

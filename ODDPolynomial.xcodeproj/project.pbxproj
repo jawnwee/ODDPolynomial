@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB5BFB80196397E1008563CB /* ODDPolynomialFit.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFB7F196397E1008563CB /* ODDPolynomialFit.c */; };
+		EB37BC581966637600612EFF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EB37BC551966637600612EFF /* main.c */; };
+		EB37BC591966637600612EFF /* ODDPolynomialFit.c in Sources */ = {isa = PBXBuildFile; fileRef = EB37BC561966637600612EFF /* ODDPolynomialFit.c */; };
 		EB5BFBB6196397F8008563CB /* polyfit.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFB9F196397F8008563CB /* polyfit.c */; };
 		EB5BFBB7196397F8008563CB /* polyPlot.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBA1196397F8008563CB /* polyPlot.c */; };
 		EB5BFBB8196397F8008563CB /* polyPlot_emxAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = EB5BFBA3196397F8008563CB /* polyPlot_emxAPI.c */; };
@@ -32,8 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB37BC551966637600612EFF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EB37BC561966637600612EFF /* ODDPolynomialFit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ODDPolynomialFit.c; sourceTree = "<group>"; };
+		EB37BC571966637600612EFF /* ODDPolynomialFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODDPolynomialFit.h; sourceTree = "<group>"; };
 		EB5BFB75196397A0008563CB /* ODDPolynomial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ODDPolynomial; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB5BFB7F196397E1008563CB /* ODDPolynomialFit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ODDPolynomialFit.c; sourceTree = "<group>"; };
 		EB5BFB82196397F8008563CB /* buildInfo.mat */ = {isa = PBXFileReference; lastKnownFileType = file; path = buildInfo.mat; sourceTree = "<group>"; };
 		EB5BFB84196397F8008563CB /* coder_report.mat */ = {isa = PBXFileReference; lastKnownFileType = file; path = coder_report.mat; sourceTree = "<group>"; };
 		EB5BFB85196397F8008563CB /* contents_file.tmp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contents_file.tmp; sourceTree = "<group>"; };
@@ -85,7 +88,6 @@
 		EB5BFBB3196397F8008563CB /* rtGetNaN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtGetNaN.h; sourceTree = "<group>"; };
 		EB5BFBB4196397F8008563CB /* rtw_proj.tmw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rtw_proj.tmw; sourceTree = "<group>"; };
 		EB5BFBB5196397F8008563CB /* rtwtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtwtypes.h; sourceTree = "<group>"; };
-		EB5BFBBF196398CB008563CB /* ODDPolynomialFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODDPolynomialFit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +120,9 @@
 		EB5BFB77196397A0008563CB /* ODDPolynomial */ = {
 			isa = PBXGroup;
 			children = (
-				EB5BFB7F196397E1008563CB /* ODDPolynomialFit.c */,
-				EB5BFBBF196398CB008563CB /* ODDPolynomialFit.h */,
+				EB37BC551966637600612EFF /* main.c */,
+				EB37BC561966637600612EFF /* ODDPolynomialFit.c */,
+				EB37BC571966637600612EFF /* ODDPolynomialFit.h */,
 				EB5BFB81196397F8008563CB /* polyPlot */,
 			);
 			path = ODDPolynomial;
@@ -248,15 +251,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB37BC581966637600612EFF /* main.c in Sources */,
 				EB5BFBBB196397F8008563CB /* polyPlot_terminate.c in Sources */,
 				EB5BFBB9196397F8008563CB /* polyPlot_emxutil.c in Sources */,
-				EB5BFB80196397E1008563CB /* ODDPolynomialFit.c in Sources */,
 				EB5BFBB7196397F8008563CB /* polyPlot.c in Sources */,
 				EB5BFBB6196397F8008563CB /* polyfit.c in Sources */,
 				EB5BFBBD196397F8008563CB /* rtGetInf.c in Sources */,
 				EB5BFBBE196397F8008563CB /* rtGetNaN.c in Sources */,
 				EB5BFBB8196397F8008563CB /* polyPlot_emxAPI.c in Sources */,
 				EB5BFBBA196397F8008563CB /* polyPlot_initialize.c in Sources */,
+				EB37BC591966637600612EFF /* ODDPolynomialFit.c in Sources */,
 				EB5BFBBC196397F8008563CB /* rt_nonfinite.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +375,7 @@
 				EB5BFB7E196397A0008563CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
