@@ -13,7 +13,7 @@
 double *polynomialFitCoordinates(int entries, double y[], int degree) {
     double x[entries];
     for (int i = 0; i < entries; i++) {
-        x[i] = i + 1;
+        x[i] = i;
     }
     double coeff[degree];
     emxArray_real_T *finalx = emxCreateWrapper_real_T(x, 1, entries);
@@ -43,7 +43,7 @@ double *polynomialFitCoordinates(int entries, double y[], int degree) {
 double *polynomialFitCoordinatesExtraData(int entries, double y[], int degree, int factor) {
     double x[entries];
     for (int i = 0; i < entries; i++) {
-        x[i] = i + 1;
+        x[i] = i;
     }
     double coeff[degree];
     emxArray_real_T *finalx = emxCreateWrapper_real_T(x, 1, entries);
@@ -59,7 +59,7 @@ double *polynomialFitCoordinatesExtraData(int entries, double y[], int degree, i
     }
     double adjustedX[entries * factor];
     for (int i = 0; i < entries * factor; i ++) {
-        adjustedX[i] = (i + 1.0) / factor;
+        adjustedX[i] = (double) (i) / factor;
     }
     double *finalResult = malloc(factor * entries * sizeof(double));
     for (int i = 0; i < entries * factor; i++) {

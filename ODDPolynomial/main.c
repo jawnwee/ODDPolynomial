@@ -383,10 +383,10 @@ int main(int argc, const char * argv[]) {
         75,
         100,
         100};
-    double *result = polynomailFitCoordinates(365, y, 10);
-    double *resultExtraData = polynomialFitCoordinatesExtraData(365, y, 10, 5);
-    for (int i = 0 ; i < 365 * 5; i++) {
-        printf("%f\n", resultExtraData[i]);
+    double *result = polynomialFitCoordinates(365, y, 10);
+    double *resultExtraData = polynomialFitCoordinatesExtraData(365, y, 10, 20);
+    for (int i = 0 ; i < 365 * 20; i++) {
+        printf("%d, %f\n", i, resultExtraData[i]);
     }
 
     return 0;
