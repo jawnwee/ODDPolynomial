@@ -6,6 +6,6 @@
 //  Copyright (c) 2014 OddLook. All rights reserved.
 //
 
-double *polynomiallFitCoordinates(int entries, double y[], int degree);
+double *polynomialFitCoordinates(int entries, double y[], int degree);
 
 double *polynomialFitCoordinatesExtraData(int entries, double y[], int degree, int factor);
