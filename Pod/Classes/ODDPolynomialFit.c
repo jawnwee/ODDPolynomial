@@ -59,7 +59,7 @@ double *polynomialFitCoordinatesExtraData(int entries, double y[], int degree, i
     }
     double adjustedX[entries * factor];
     for (int i = 0; i < entries * factor; i ++) {
-        adjustedX[i] = (i + 1.0) / factor;
+        adjustedX[i] = ((double)i / factor) + 1.0;
     }
     double *finalResult = malloc(factor * entries * sizeof(double));
     for (int i = 0; i < entries * factor; i++) {
