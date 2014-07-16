@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ODDPolynomial"
-  s.version          = "0.3.0"
+  s.version          = "0.4.0"
   s.summary          = "A short description of ODDPolynomial."
   s.description      = <<-DESC
                        An optional longer description of ODDPolynomial

@@ -8,4 +8,4 @@
 
 double *polynomialFitCoordinates(int entries, double y[], int degree);
 
-double *polynomialFitCoordinatesExtraData(int entries, double y[], int degree, int factor);
+double *polynomialFitCoordinatesExtraData(int actualEntries, double y[], int degree, int resultingEntries, double startPadding);
